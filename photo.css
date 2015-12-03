@@ -1,0 +1,32 @@
+img {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+	
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	margin-left: 1.66%;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 2px solid #f1f1f1;
+	width: 30%;
+	padding-bottom: 20px;
+	
+}
+
+/* USED CODEPEN AS MY RESOURCE: http://codepen.io/usingthesystem/pen/VvMKwO */
+
+img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+img:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
